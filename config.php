@@ -2,10 +2,10 @@
 session_start();
 
 /************	You can edit details starting from here ************/
-$dbhost = 'localhost';		// Write your MySQL host here.
-$dbuser = 'root';	// Write your MySQL User here.
-$dbpass = '';	// Write your MySQL Password here.
-$dbname = 'app_inventario';		// Write the MySQL Database where you want to install Invento
+$dbhost =  'localhost';		// Write your MySQL host here.
+$dbuser =  'root';	// Write your MySQL User here.
+$dbpass =  '';	// Write your MySQL Password here.
+$dbname =  'app_inventario';		// Write the MySQL Database where you want to install Invento
 
 
 /************ DON'T EDIT NOTHING BELOW ************/
