@@ -15,7 +15,7 @@ $dbname = 'app_inventario';		// Write the MySQL Database where you want to insta
 
 if(!isset($noredir) && $dbhost == 'localhost' && $dbuser == 'MYSQL USERNAME' && $dbpass == 'MYSQL PASSWORD')
 	header('Location:install.php');
-if(!isset($noredir)) {
+if(!isset($noredir)) {//Conexion con la base de datos
 	$mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 	if($mysqli->connect_errno)
 		die('<h2>Something went wrong while trying to connect to your MySQL Database. Error No. ' . $mysql->connect_errno.'<h2>');
