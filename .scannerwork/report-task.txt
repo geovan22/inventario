@@ -1,0 +1,6 @@
+projectKey=APP_Inventario
+serverUrl=http://localhost:9000
+serverVersion=8.4.2.36762
+dashboardUrl=http://localhost:9000/dashboard?id=APP_Inventario
+ceTaskId=AXUVCk_iDLFjMSApjzEG
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXUVCk_iDLFjMSApjzEG
